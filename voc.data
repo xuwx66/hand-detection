@@ -1,0 +1,6 @@
+classes= 1
+train  = /Users/dandancui/Desktop/darknet/2007_train.txt
+valid  = /Users/dandancui/Desktop/darknet/VOCdevkit/VOC2007/ImageSets/2007_test.txt
+names = data/voc.names
+backup = backup
+
