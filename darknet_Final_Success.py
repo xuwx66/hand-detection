@@ -159,7 +159,7 @@ if __name__ == "__main__":
     fromP = np.float32([[0,540],[720,1080],[1910,0],[1440,0]])
     toP = np.float32([[0,810],[1440,945],[1440,0],[480,135]])
     M = cv2.getPerspectiveTransform(fromP,toP)
-    logo = cv2.imread('servian-logo.png')
+    logo = cv2.imread('logo.png')
     logo = cv2.resize(logo,(int(logo.shape[1]/4),int(logo.shape[0]/4)),cv2.INTER_AREA)
     tracker =  Sort()
 
